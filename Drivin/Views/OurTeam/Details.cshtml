@@ -1,0 +1,33 @@
+﻿@model Drivin.BL.ViewModels.OurTeamVM
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h1>Details</h1>
+
+
+
+<form asp-controller="OurTeam" asp-action="Create" enctype="multipart/form-data">
+
+	<img src="~/Imgs/@Model.PhotoName" class="rounded mx-auto d-block shadow-lg " style="height:200px ; width:300px" alt="...">
+	<br />
+	<div class="form-group">
+		<label for="Name">Name</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Name" disabled>
+	</div>
+
+
+
+
+	<br />
+	<div class="border-top">
+		<div class="card-body">
+			<a asp-controller="OurTeam" asp-action="Index" type="submit" class="btn btn-primary">Back To Data</a>
+			<a asp-controller="OurTeam" asp-action="Edit" asp-route-id="@Model.Id" type="submit" class="btn btn-info">Edit</a>
+			<a asp-controller="OurTeam" asp-action="Delete" asp-route-id="@Model.Id" type="submit" class="btn btn-danger">Delete</a>
+		</div>
+	</div>About
+
+</form>

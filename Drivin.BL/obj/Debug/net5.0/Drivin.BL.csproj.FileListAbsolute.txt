@@ -1,0 +1,15 @@
+F:\Drivin\Drivin.BL\bin\Debug\net5.0\Drivin.BL.deps.json
+F:\Drivin\Drivin.BL\bin\Debug\net5.0\Drivin.BL.dll
+F:\Drivin\Drivin.BL\bin\Debug\net5.0\Drivin.BL.pdb
+F:\Drivin\Drivin.BL\bin\Debug\net5.0\Drivin.DAL.dll
+F:\Drivin\Drivin.BL\bin\Debug\net5.0\Drivin.DAL.pdb
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.csproj.AssemblyReference.cache
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.AssemblyInfoInputs.cache
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.AssemblyInfo.cs
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.csproj.CoreCompileInputs.cache
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.csproj.CopyComplete
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.dll
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\refint\Drivin.BL.dll
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\Drivin.BL.pdb
+F:\Drivin\Drivin.BL\obj\Debug\net5.0\ref\Drivin.BL.dll

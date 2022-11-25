@@ -1,0 +1,369 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="123 Cairo , Cairo-Egypt" xml:space="preserve">
+    <value>123 Cairo , Cairo-Egypt</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>About</value>
+  </data>
+  <data name="ABOUT US" xml:space="preserve">
+    <value>ABOUT US</value>
+  </data>
+  <data name="Afordable Fee" xml:space="preserve">
+    <value>Afordable Fee</value>
+  </data>
+  <data name="All Right Reserved." xml:space="preserve">
+    <value>All Right Reserved.</value>
+  </data>
+  <data name="Amazing App to learn Driving" xml:space="preserve">
+    <value>Amazing App to learn Driving</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>Appointment</value>
+  </data>
+  <data name="Automatic Car Lessons" xml:space="preserve">
+    <value>Automatic Car Lessons</value>
+  </data>
+  <data name="Best Driving Training Agency In Your City" xml:space="preserve">
+    <value>Best Driving Training Agency In Your City</value>
+  </data>
+  <data name="Best Trainers" xml:space="preserve">
+    <value>Best Trainers</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>By</value>
+  </data>
+  <data name="Cairo" xml:space="preserve">
+    <value>Cairo</value>
+  </data>
+  <data name="Car Type" xml:space="preserve">
+    <value>Car Type</value>
+  </data>
+  <data name="Coding" xml:space="preserve">
+    <value>Coding</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>Condition</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>Contact</value>
+  </data>
+  <data name="Contact Us" xml:space="preserve">
+    <value>Contact Us</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>Courses</value>
+  </data>
+  <data name="Courses Type" xml:space="preserve">
+    <value>Courses Type</value>
+  </data>
+  <data name="Designed" xml:space="preserve">
+    <value>Designed</value>
+  </data>
+  <data name="Driving School Website" xml:space="preserve">
+    <value>Driving School Website</value>
+  </data>
+  <data name="Driving School Website Template" xml:space="preserve">
+    <value>Driving School Website Template</value>
+  </data>
+  <data name="Easy Driving Learn" xml:space="preserve">
+    <value>Easy Driving Learn</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>Egypt</value>
+  </data>
+  <data name="Follow" xml:space="preserve">
+    <value>Follow</value>
+  </data>
+  <data name="Follow Us" xml:space="preserve">
+    <value>Follow Us</value>
+  </data>
+  <data name="Fully Licensed" xml:space="preserve">
+    <value>Fully Licensed</value>
+  </data>
+  <data name="Get In Touch" xml:space="preserve">
+    <value>Get In Touch</value>
+  </data>
+  <data name="Get licence" xml:space="preserve">
+    <value>Get licence</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>Get Started</value>
+  </data>
+  <data name="Hassan" xml:space="preserve">
+    <value>Hassan</value>
+  </data>
+  <data name="Highway Driving Lesson" xml:space="preserve">
+    <value>Highway Driving Lesson</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="If You Have Any Query, Please Contact Us" xml:space="preserve">
+    <value>If You Have Any Query, Please Contact Us</value>
+  </data>
+  <data name="International Driving" xml:space="preserve">
+    <value>International Driving</value>
+  </data>
+  <data name="Jone" xml:space="preserve">
+    <value>Jone</value>
+  </data>
+  <data name="Josef" xml:space="preserve">
+    <value>Josef</value>
+  </data>
+  <data name="Learn More" xml:space="preserve">
+    <value>Our Courses</value>
+  </data>
+  <data name="Learn To Drive With Confidence" xml:space="preserve">
+    <value>Learn To Drive With Confidence</value>
+  </data>
+  <data name="Make Appointment" xml:space="preserve">
+    <value>Make Appointment</value>
+  </data>
+  <data name="MEET THE TEAM" xml:space="preserve">
+    <value />
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>Message</value>
+  </data>
+  <data name="Michael" xml:space="preserve">
+    <value>Michael</value>
+  </data>
+  <data name="Mirna" xml:space="preserve">
+    <value>Mirna</value>
+  </data>
+  <data name="National Instructor" xml:space="preserve">
+    <value>National Instructor</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>Newsletter</value>
+  </data>
+  <data name="Online Tracking" xml:space="preserve">
+    <value>Online Tracking</value>
+  </data>
+  <data name="Our" xml:space="preserve">
+    <value>Our</value>
+  </data>
+  <data name="Our Courses" xml:space="preserve">
+    <value>Our Courses</value>
+  </data>
+  <data name="Our Courses Upskill You With Driving Training" xml:space="preserve">
+    <value>Our Courses Upskill You With Driving Training</value>
+  </data>
+  <data name="Our Team" xml:space="preserve">
+    <value>Our Team</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="Popular Links" xml:space="preserve">
+    <value>Popular Links</value>
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>Profession</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>Quick Links</value>
+  </data>
+  <data name="Read More" xml:space="preserve">
+    <value>Read More</value>
+  </data>
+  <data name="Safe Driving Is Our Top Priority" xml:space="preserve">
+    <value>Safe Driving Is Our Top Priority</value>
+  </data>
+  <data name="Sara" xml:space="preserve">
+    <value>Sara</value>
+  </data>
+  <data name="Send Message" xml:space="preserve">
+    <value>Send Message</value>
+  </data>
+  <data name="Shehab" xml:space="preserve">
+    <value>Shehab</value>
+  </data>
+  <data name="Sign Up" xml:space="preserve">
+    <value>Sign Up</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>Subject</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>Support</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>Terms</value>
+  </data>
+  <data name="Terms &amp; Condition" xml:space="preserve">
+    <value>Terms &amp; Condition</value>
+  </data>
+  <data name="Testimonial" xml:space="preserve">
+    <value>Testimonial</value>
+  </data>
+  <data name="This company is excellent , and the cost is not great" xml:space="preserve">
+    <value>This company is excellent , and the cost is not great</value>
+  </data>
+  <data name="This company is excellent. It helped me learn from scratch and helped me obtain the license without any problems, and the cost is not great" xml:space="preserve">
+    <value>This company is excellent. It helped me learn from scratch and helped me obtain the license without any problems, and the cost is not great</value>
+  </data>
+  <data name="Trainer" xml:space="preserve">
+    <value>Trainer</value>
+  </data>
+  <data name="TRANDING COURSES" xml:space="preserve">
+    <value>TRANDING COURSES</value>
+  </data>
+  <data name="Us" xml:space="preserve">
+    <value>Us</value>
+  </data>
+  <data name="We Have Great Experience Of Driving" xml:space="preserve">
+    <value>We Have Great Experience Of Driving</value>
+  </data>
+  <data name="We Help Students To Pass Test &amp; Get A License On The First Try" xml:space="preserve">
+    <value>We Help Students To Pass Test &amp; Get A License On The First Try</value>
+  </data>
+  <data name="We learn you how to drive Automatic Car in streets step by step from zero" xml:space="preserve">
+    <value>We learn you how to drive Automatic Car in streets step by step from zero</value>
+  </data>
+  <data name="We learn you how to drive Automatic Car step by step in all Highway" xml:space="preserve">
+    <value>We learn you how to drive Automatic Car step by step in all Highway</value>
+  </data>
+  <data name="We teach you international driving and complete laws and help you with the international license and avoid problems" xml:space="preserve">
+    <value>We teach you international driving and complete laws and help you with the international license and avoid problems</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>Week</value>
+  </data>
+  <data name="What Our Clients Say" xml:space="preserve">
+    <value>What Our Clients Say</value>
+  </data>
+  <data name="WHY CHOOSE US" xml:space="preserve">
+    <value>WHY CHOOSE US</value>
+  </data>
+  <data name="You can contact us by sending mail here , Please write your name , Email , Subject and Message ." xml:space="preserve">
+    <value>You can contact us by sending mail here , Please write your name , Email , Subject and Message .</value>
+  </data>
+  <data name="Your Email" xml:space="preserve">
+    <value>Your Email</value>
+  </data>
+  <data name="Your Name" xml:space="preserve">
+    <value>Your Name</value>
+  </data>
+</root>

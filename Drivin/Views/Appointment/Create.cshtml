@@ -1,0 +1,25 @@
+﻿@model Drivin.BL.ViewModels.AppointmentVM
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+
+<center>
+	<h1>Create</h1>
+</center>
+
+<form asp-controller="Appointment" asp-action="Create">
+	<div class="form-group">
+		<label for="Header">Header</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Header">
+	</div>
+
+	
+
+	<br />
+	<input type="submit" value="Save" class="btn btn-success" />
+
+
+</form>

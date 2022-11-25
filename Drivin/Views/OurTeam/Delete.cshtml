@@ -1,0 +1,38 @@
+﻿@model Drivin.BL.ViewModels.OurTeamVM
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h1>Delete</h1>
+
+
+
+
+<form asp-controller="OurTeam" asp-action="Delete" enctype="multipart/form-data">
+
+	<img src="~/Files/Imgs/@Model.PhotoName" class="rounded mx-auto d-block shadow-lg " style="height:200px ; width:300px" alt="...">
+	<br />
+	<div class="form-group">
+		<label for="Id">Id</label>
+		<input class="form-control" type="number" placeholder="Enter Header" asp-for="Id" disabled>
+	</div>
+	<br />
+	<div class="form-group">
+		<label for="Name">Name</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Name" disabled>
+	</div>
+
+	
+
+
+	<br />
+	<div class="border-top">
+		<div class="card-body">
+			<a asp-controller="OurTeam" asp-action="Index" type="submit" class="btn btn-primary">Back To Data</a>
+			<input type="submit" value="Delete" class="btn btn-danger" />
+		</div>
+	</div>About
+
+</form>

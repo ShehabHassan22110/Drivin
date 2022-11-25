@@ -1,0 +1,34 @@
+﻿@model Drivin.BL.ViewModels.AppointmentVM
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<center>
+	<h1>Details</h1>
+
+</center>
+
+
+<form asp-controller="Appointment" asp-action="Create" >
+
+	<br />
+	<div class="form-group">
+		<label  for="Header">Header</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Header" disabled>
+	</div>
+
+	
+	
+
+	<br />
+	<div class="border-top">
+		<div class="card-body">
+			<a asp-controller="Appointment" asp-action="Index" type="submit" class="btn btn-primary">Back To Data</a>
+			<a asp-controller="Appointment" asp-action="Edit" asp-route-id="@Model.Id" type="submit" class="btn btn-info">Edit</a>
+			<a asp-controller="Appointment" asp-action="Delete" asp-route-id="@Model.Id" type="submit" class="btn btn-danger">Delete</a>
+		</div>
+	</div>
+
+</form>

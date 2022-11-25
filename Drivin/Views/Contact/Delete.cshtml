@@ -1,0 +1,36 @@
+﻿@model Drivin.BL.ViewModels.ContactVM
+
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<center>
+    <h1>Delete</h1>
+</center>
+
+
+<div class="card">
+    <form class="form-control" asp-controller="Contact" asp-action="Delete" method="post">
+        <label asp-for="Id">Id</label>
+        <input type="text" class="form-control" asp-for="Id" disabled>
+
+        <br />
+        <label asp-for="Header">Header</label>
+        <input type="text" class="form-control" asp-for="Header" disabled>
+
+        <br />
+        <label asp-for="Caption">Caption</label>
+        <input type="text" class="form-control" asp-for="Caption" disabled>
+
+        <br />
+
+        <
+
+        <br />
+
+        <a asp-controller="Contact" asp-action="Index" class="btn btn-primary">Back To Data</a>
+        <input type="submit" value="Delete" class="btn btn-danger" />
+
+    </form>
+</div>

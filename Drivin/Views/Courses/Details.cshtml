@@ -1,0 +1,41 @@
+﻿@model Drivin.BL.ViewModels.CoursesVM
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<center>
+    <h1>Details</h1>
+</center>
+
+<form asp-controller="Courses" asp-action="Create" enctype="multipart/form-data">
+
+	<img src="~/Imgs/@Model.PhotoName" class="rounded mx-auto d-block shadow-lg " style="height:200px ; width:300px" alt="...">
+	<br />
+	<div class="form-group">
+		<label for="Header">Header</label>
+		<input class="form-control" type="text" asp-for="Header" disabled>
+	</div>
+	<div class="form-group">
+		<label for="Price">Price</label>
+		<input class="form-control" type="text" asp-for="Price" disabled>
+	</div>
+	<div class="form-group">
+		<label for="Caption">Caption</label>
+		<input class="form-control" type="text" asp-for="Caption" disabled>
+	</div>
+
+
+
+
+	<br />
+	<div class="border-top">
+		<div class="card-body">
+			<a asp-controller="Courses" asp-action="Index" type="submit" class="btn btn-primary">Back To Data</a>
+			<a asp-controller="Courses" asp-action="Edit" asp-route-id="@Model.Id" type="submit" class="btn btn-info">Edit</a>
+			<a asp-controller="Courses" asp-action="Delete" asp-route-id="@Model.Id" type="submit" class="btn btn-danger">Delete</a>
+		</div>
+	</div>About
+
+</form>

@@ -1,0 +1,372 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="123 Cairo , Cairo-Egypt" xml:space="preserve">
+    <value>123 القاهرة ، القاهرةة - مصر</value>
+  </data>
+  <data name="About" xml:space="preserve">
+    <value>حول</value>
+  </data>
+  <data name="About Us" xml:space="preserve">
+    <value>معلومات عنا</value>
+  </data>
+  <data name="Afordable Fee" xml:space="preserve">
+    <value>رسوم في متناول الجميع</value>
+  </data>
+  <data name="All Right Reserved" xml:space="preserve">
+    <value>جميع الحقوق محفوظة.</value>
+  </data>
+  <data name="Amazing App to learn Driving" xml:space="preserve">
+    <value>التطبيق المدهش لتعلم القيادة</value>
+  </data>
+  <data name="Appointment" xml:space="preserve">
+    <value>ميعاد</value>
+  </data>
+  <data name="Automatic Car Lessons" xml:space="preserve">
+    <value>دروس السيارات التلقائية</value>
+  </data>
+  <data name="Best Driving Training Agency In Your City" xml:space="preserve">
+    <value>أفضل وكالة تدريب على القيادة في مدينتك</value>
+  </data>
+  <data name="Best Trainers" xml:space="preserve">
+    <value>أفضل المدربين</value>
+  </data>
+  <data name="By" xml:space="preserve">
+    <value>بواسطة</value>
+  </data>
+  <data name="Cairo" xml:space="preserve">
+    <value>القاهرة</value>
+  </data>
+  <data name="Car Type" xml:space="preserve">
+    <value>نوع السيارة</value>
+  </data>
+  <data name="Coding" xml:space="preserve">
+    <value>الترميز</value>
+  </data>
+  <data name="Condition" xml:space="preserve">
+    <value>حالة</value>
+  </data>
+  <data name="Contact" xml:space="preserve">
+    <value>اتصل</value>
+  </data>
+  <data name="Contact Us" xml:space="preserve">
+    <value>اتصل بنا</value>
+  </data>
+  <data name="Courses" xml:space="preserve">
+    <value>الدورات</value>
+  </data>
+  <data name="Courses Type" xml:space="preserve">
+    <value>نوع الدورات</value>
+  </data>
+  <data name="Designed" xml:space="preserve">
+    <value>صممت</value>
+  </data>
+  <data name="Driving School Website" xml:space="preserve">
+    <value>موقع مدرسة تعليم سواقة</value>
+  </data>
+  <data name="Driving School Website Template" xml:space="preserve">
+    <value>موقع تعليم سواقة سيارات</value>
+  </data>
+  <data name="Easy Driving Learn" xml:space="preserve">
+    <value>تعلم القيادة بسهولة</value>
+  </data>
+  <data name="Egypt" xml:space="preserve">
+    <value>مصر</value>
+  </data>
+  <data name="Follow" xml:space="preserve">
+    <value>تابع</value>
+  </data>
+  <data name="Follow Us" xml:space="preserve">
+    <value>تابعنا</value>
+  </data>
+  <data name="Fully Licensed" xml:space="preserve">
+    <value>مرخص بالكامل</value>
+  </data>
+  <data name="Get In Touch" xml:space="preserve">
+    <value>ابقى على تواصل</value>
+  </data>
+  <data name="Get licence" xml:space="preserve">
+    <value>احصل على رخصة</value>
+  </data>
+  <data name="Get Started" xml:space="preserve">
+    <value>البدء</value>
+  </data>
+  <data name="Hassan" xml:space="preserve">
+    <value>حسن</value>
+  </data>
+  <data name="Highway Driving Lesson" xml:space="preserve">
+    <value>درس القيادة على الطرق السريعة</value>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>الصفحة الرئيسية</value>
+  </data>
+  <data name="If You Have Any Query, Please Contact Us" xml:space="preserve">
+    <value>إذا كان لديك أي استفسار ، يرجى الاتصال بنا</value>
+  </data>
+  <data name="International Driving" xml:space="preserve">
+    <value>القيادة الدولية</value>
+  </data>
+  <data name="Jone" xml:space="preserve">
+    <value>جون</value>
+  </data>
+  <data name="Josef" xml:space="preserve">
+    <value>جوزيف</value>
+  </data>
+  <data name="Learn More" xml:space="preserve">
+    <value>يتعلم أكثر</value>
+  </data>
+  <data name="Learn To Drive With Confidence" xml:space="preserve">
+    <value>تعلم القيادة بثقة</value>
+  </data>
+  <data name="Make Appointment" xml:space="preserve">
+    <value>حدد موعدا</value>
+  </data>
+  <data name="MEET THE TEAM" xml:space="preserve">
+    <value>قابل الفريق</value>
+  </data>
+  <data name="Message" xml:space="preserve">
+    <value>رسالة</value>
+  </data>
+  <data name="Michael" xml:space="preserve">
+    <value>مايكل</value>
+  </data>
+  <data name="Mirna" xml:space="preserve">
+    <value>ميرنا</value>
+  </data>
+  <data name="National Instructor" xml:space="preserve">
+    <value>مدرب وطني</value>
+  </data>
+  <data name="Newsletter" xml:space="preserve">
+    <value>النشرة الإخبارية</value>
+  </data>
+  <data name="Online Tracking" xml:space="preserve">
+    <value>تعقب عبر الانترنت</value>
+  </data>
+  <data name="Our Courses" xml:space="preserve">
+    <value>دوراتنا</value>
+  </data>
+  <data name="Our Courses Upskill You With Driving Training" xml:space="preserve">
+    <value>تعمل دوراتنا على تحسين مهاراتك من خلال التدريب على القيادة</value>
+  </data>
+  <data name="Our Services" xml:space="preserve">
+    <value>ملكنا</value>
+  </data>
+  <data name="Our Team" xml:space="preserve">
+    <value>فريقنا</value>
+  </data>
+  <data name="Pages" xml:space="preserve">
+    <value>صفحات</value>
+  </data>
+  <data name="Popular Links" xml:space="preserve">
+    <value>روابط مشهورة</value>
+  </data>
+  <data name="Profession" xml:space="preserve">
+    <value>معلم سواقة</value>
+  </data>
+  <data name="Quick Links" xml:space="preserve">
+    <value>روابط سريعة</value>
+  </data>
+  <data name="Read More" xml:space="preserve">
+    <value>اقرأ أكثر</value>
+  </data>
+  <data name="Safe Driving Is Our Top Priority" xml:space="preserve">
+    <value>القيادة الآمنة هي أهم أولوياتنا</value>
+  </data>
+  <data name="Sara" xml:space="preserve">
+    <value>ساره</value>
+  </data>
+  <data name="Send Message" xml:space="preserve">
+    <value>أرسل رسالة</value>
+  </data>
+  <data name="Shehab" xml:space="preserve">
+    <value>شهاب</value>
+  </data>
+  <data name="Sign Up" xml:space="preserve">
+    <value>اشتراك</value>
+  </data>
+  <data name="String1" xml:space="preserve">
+    <value />
+  </data>
+  <data name="StrTerms &amp; Condition" xml:space="preserve">
+    <value>الشروط و الأحكام</value>
+  </data>
+  <data name="Subject" xml:space="preserve">
+    <value>موضوعات</value>
+  </data>
+  <data name="Submit" xml:space="preserve">
+    <value>تسجيل</value>
+  </data>
+  <data name="Support" xml:space="preserve">
+    <value>الدعم</value>
+  </data>
+  <data name="Terms" xml:space="preserve">
+    <value>شروط</value>
+  </data>
+  <data name="Testimonial" xml:space="preserve">
+    <value>شهادة</value>
+  </data>
+  <data name="This company is excellent , and the cost is not great" xml:space="preserve">
+    <value>هذه الشركة ممتازة والتكلفة ليست كبيرة</value>
+  </data>
+  <data name="This company is excellent. It helped me learn from scratch and helped me obtain the license without any problems, and the cost is not great" xml:space="preserve">
+    <value>هذه الشركة ممتازة. لقد ساعدتني على التعلم من الصفر وساعدتني في الحصول على الترخيص دون أي مشاكل ، والتكلفة ليست كبيرة</value>
+  </data>
+  <data name="Trainer" xml:space="preserve">
+    <value>مدرب</value>
+  </data>
+  <data name="TRANDING COURSES" xml:space="preserve">
+    <value>الدورات التجارية</value>
+  </data>
+  <data name="Us" xml:space="preserve">
+    <value>نحن</value>
+  </data>
+  <data name="We Have Great Experience Of Driving" xml:space="preserve">
+    <value>لدينا خبرة كبيرة في القيادة</value>
+  </data>
+  <data name="We Help Students To Pass Test &amp; Get A License On The First Try" xml:space="preserve">
+    <value>نحن نساعد الطلاب على اجتياز الاختبار والحصول على ترخيص من المحاولة الأولى</value>
+  </data>
+  <data name="We learn you how to drive Automatic Car in streets step by step from zero" xml:space="preserve">
+    <value>نتعلمك كيفية قيادة السيارة الأوتوماتيكية في الشوارع خطوة بخطوة من الصفر</value>
+  </data>
+  <data name="We learn you how to drive Automatic Car step by step in all Highway" xml:space="preserve">
+    <value>نتعلمك كيفية قيادة السيارة الأوتوماتيكية خطوة بخطوة في جميع الطرق السريعة</value>
+  </data>
+  <data name="We teach you international driving and complete laws and help you with the international license and avoid problems" xml:space="preserve">
+    <value>نعلمك القيادة الدولية والقوانين الكاملة ونساعدك في الحصول على الرخصة الدولية وتجنب المشاكل</value>
+  </data>
+  <data name="Week" xml:space="preserve">
+    <value>اسبوع</value>
+  </data>
+  <data name="What Our Clients Say" xml:space="preserve">
+    <value>ماذا يقول عملاؤنا!</value>
+  </data>
+  <data name="WHY CHOOSE US" xml:space="preserve">
+    <value>لماذا أخترتنا</value>
+  </data>
+  <data name="You can contact us by sending mail here , Please write your name , Email , Subject and Message ." xml:space="preserve">
+    <value>يمكنك الاتصال بنا عن طريق إرسال بريد هنا ، يرجى كتابة اسمك والبريد الإلكتروني والموضوع والرسالة.</value>
+  </data>
+  <data name="Your Email" xml:space="preserve">
+    <value>بريدك الالكتروني</value>
+  </data>
+  <data name="Your Name" xml:space="preserve">
+    <value>اسمك</value>
+  </data>
+</root>

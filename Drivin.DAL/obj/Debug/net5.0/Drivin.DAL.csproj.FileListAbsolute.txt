@@ -1,0 +1,15 @@
+F:\Drivin\Drivin.DAL\bin\Debug\net5.0\Drivin.DAL.deps.json
+F:\Drivin\Drivin.DAL\bin\Debug\net5.0\Drivin.DAL.runtimeconfig.json
+F:\Drivin\Drivin.DAL\bin\Debug\net5.0\Drivin.DAL.runtimeconfig.dev.json
+F:\Drivin\Drivin.DAL\bin\Debug\net5.0\Drivin.DAL.dll
+F:\Drivin\Drivin.DAL\bin\Debug\net5.0\Drivin.DAL.pdb
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.csproj.AssemblyReference.cache
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.GeneratedMSBuildEditorConfig.editorconfig
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.AssemblyInfoInputs.cache
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.AssemblyInfo.cs
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.csproj.CoreCompileInputs.cache
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.dll
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\refint\Drivin.DAL.dll
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.pdb
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\Drivin.DAL.genruntimeconfig.cache
+F:\Drivin\Drivin.DAL\obj\Debug\net5.0\ref\Drivin.DAL.dll

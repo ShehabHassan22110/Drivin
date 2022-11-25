@@ -1,0 +1,34 @@
+﻿@model Drivin.BL.ViewModels.ContactVM
+
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<center>
+    <h1>Details</h1>
+</center>
+
+
+<div class="card">
+    <div class="card-body">
+
+    
+        <label asp-for="Header">Header</label>
+        <input type="text" class="form-control" name="Header" asp-for="Header">
+        @*<span asp-validation-for="Name" class="text-danger"></span>*@
+        <br />
+        <label asp-for="Caption">Caption</label>
+        <input type="text" class="form-control" asp-for="Caption" name="Caption">
+        @*<span asp-validation-for="Code" class="text-danger"></span>*@
+        <br />
+    </div>
+    <div class="border-top">
+        <div class="card-body">
+            <a asp-controller="Contact" asp-action="DashboardIndex" type="submit" class="btn btn-primary">Back To Data</a>
+            <a asp-controller="Contact" asp-action="Edit" asp-route-id="@Model.Id" type="submit" class="btn btn-info">Edit</a>
+        </div>
+    </div>
+</div>
+
+

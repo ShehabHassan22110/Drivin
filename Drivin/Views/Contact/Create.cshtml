@@ -1,0 +1,36 @@
+﻿@model Drivin.BL.ViewModels.ContactVM
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+
+
+
+
+<center>
+    <h1>Create</h1>
+
+</center>
+
+<div>
+    <form class="form-control" asp-controller="Contact" asp-action="Create" enctype="multipart/form-data">
+
+        <label for="Header">Header</label>
+        <input type="text" class="form-control" name="Header" asp-for="Header">
+        <span asp-validation-for="Header" class="text-danger"></span>
+        <br />
+        <label for="Caption">Caption</label>
+        <input type="text" class="form-control" asp-for="Caption" name="Caption">
+        <span asp-validation-for="Caption" class="text-danger"></span>
+        <br />
+
+       
+
+
+        <input type="submit" value="Save" class="btn btn-success" />
+    </form>
+</div>
+
+
+

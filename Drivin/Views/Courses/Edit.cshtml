@@ -1,0 +1,50 @@
+﻿@model Drivin.BL.ViewModels.CoursesVM
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h1>Edit</h1>
+
+<form asp-controller="Courses" asp-action="Edit" enctype="multipart/form-data">
+    <img src="~/Imgs/@Model.PhotoName" class="rounded mx-auto d-block shadow-lg " style="height:200px ; width:300px" alt="...">
+    <br />
+    <div class="container">
+        
+                <div class="form-group">
+                    <label for="Header"> Header</label>
+                    <input class="form-control" type="text" placeholder="Enter Automatic Header" asp-for="Header">
+                </div>
+      
+
+       
+                <div class="form-group">
+                    <label for="Caption"> Caption</label>
+                    <input class="form-control" type="text" placeholder="Enter Automatic Captio" asp-for="Caption">
+                </div>
+        
+       
+                <div class="form-group">
+                    <label for="Price"> Price</label>
+                    <input class="form-control" type="text" placeholder="Enter Automatic Captio" asp-for="Price">
+                </div>
+        
+
+        <div class="form-group">
+            <label for="Photo"> Image</label>
+            <input type="file" class="form-control-file form-control height-auto" asp-for="Photo">
+        </div>
+
+    
+
+    </div>
+
+    <br />
+
+    <center>
+        <a asp-controller="Courses" asp-action="Index" class="btn btn-primary">Back To Data</a>
+        <a asp-controller="Courses" asp-action="Delete" asp-route-id="@Model.Id" type="submit" class="btn btn-danger">Delete</a>
+        <input type="submit" value="Save" class="btn btn-info w-50" />
+    </center>
+</form>

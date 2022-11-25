@@ -1,0 +1,36 @@
+﻿@model Drivin.BL.ViewModels.TestimonialVM
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Views/Shared/_LayoutDashboard.cshtml";
+}
+
+<h1>Edit</h1>
+
+
+<form asp-controller="Testimonial" asp-action="Edit" enctype="multipart/form-data" method="post">
+
+	<img src="~/Imgs/@Model.PhotoName" class="rounded mx-auto d-block shadow-lg " style="height:200px ; width:300px" alt="...">
+	<br />
+	<div class="form-group">
+		<label for="Name">Name</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Name">
+	</div>
+	<div class="form-group">
+		<label for="Comment">Comment</label>
+		<input class="form-control" type="text" placeholder="Enter Header" asp-for="Comment">
+	</div>
+	
+
+	<div class="form-group">
+		<label for="Photo"> Image</label>
+		<input type="file" class="form-control-file form-control height-auto" asp-for="Photo">
+	</div>
+
+
+	<br />
+	<input type="submit" value="Save" class="btn btn-success" />
+
+	<br />
+
+</form>
